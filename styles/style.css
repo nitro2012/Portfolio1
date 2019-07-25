@@ -1,0 +1,78 @@
+body{
+    display: grid;
+    grid-template-areas: "top"
+                         "next1"
+                         "next2"
+                         "bottom";
+box-sizing: border-box;                        
+                        }
+.navigation{
+    grid-area: top;
+    word-spacing: 1.5em;
+    align-content: end;
+    text-align: end;
+}
+.right
+{
+    justify-content: end;
+}
+.navigation img{
+height: 1em;
+width : 1em;
+}
+.navigation .blu{
+    background-color: blue;
+    word-spacing: 0.2em;
+    padding: 0.45em;
+    border-radius: 10%;
+    color: white;
+    text-shadow: 1px 0.2px 1px white;
+}
+.logo{
+    font-size: 10em;
+    text-align: center;
+}
+.search-bar{
+    margin: 30px;
+    justify-self: center;
+    
+}
+.searchbar{
+    width:50em;
+    height: 2em;
+    border: none;
+    border: thin black solid;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    padding-left: 10px; 
+
+
+}
+.buttons{
+    margin: 20px;
+    text-align: center;
+    
+}
+.center{
+    border: thin gray solid;
+    background-color: #f2f2f2;
+    padding:0.5em;
+    border-radius: 2px;
+    margin-right:2px;
+
+}
+.lblu{
+    color:lightblue;
+}
+.red{
+    color: red;
+}
+.yello{
+    color: darkgoldenrod;
+}
+.green{
+    color:lightgreen;
+}
+
