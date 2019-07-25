@@ -4,21 +4,26 @@ body{
                          "next1"
                          "next2"
                          "bottom";
-box-sizing: border-box;                        
+box-sizing: border-box;   
+background-color: #fff;                     
                         }
 .navigation{
     grid-area: top;
     word-spacing: 1.5em;
     align-content: end;
     text-align: end;
+    height:30px;
+    
 }
-.right
+
+.right:hover
 {
-    justify-content: end;
+  text-decoration: underline;
+  opacity: 0.85;  
 }
 .navigation img{
-height: 1em;
-width : 1em;
+height: 1.1em;
+width : 1.1em;
 }
 .navigation .blu{
     background-color: blue;
@@ -28,27 +33,47 @@ width : 1em;
     color: white;
     text-shadow: 1px 0.2px 1px white;
 }
+.blu:active{
+    box-shadow:inset 0 2px 0 rgba(0,0,0,.15);
+}
 .logo{
     font-size: 10em;
     text-align: center;
+    grid-area: next1;
+    height: 233px;
+    margin-top: 89px;
+    
 }
 .search-bar{
     margin: 30px;
     justify-self: center;
+    grid-area: next2;
+    display: inline;
     
 }
 .searchbar{
     width:50em;
     height: 2em;
     border: none;
-    border: thin black solid;
+    border: 1px rgb(223,225,229) solid;
     border-bottom-left-radius: 24px;
     border-bottom-right-radius: 24px;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
     padding-left: 10px; 
+    display: block;
+    
 
 
+}
+.searchbar:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+.small{
+    height: 1em;
+    width: 1em;
+    
 }
 .buttons{
     margin: 20px;
@@ -61,7 +86,10 @@ width : 1em;
     padding:0.5em;
     border-radius: 2px;
     margin-right:2px;
-
+    color: rgb(95,99,104);
+}
+.center:hover{
+    color:#000;
 }
 .lblu{
     color:lightblue;
