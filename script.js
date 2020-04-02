@@ -1,10 +1,13 @@
 $(document).ready(function(){
     $("button").click(function(){
       $("#side_bar").hide();
+      $("#intro").animate({width:"100%",left:"0%"});
+
     });
     $("#intro span img").click(
         function(){
 $("#side_bar").show();
+$("#intro").animate({width:"85%",left:"15.5%"});
         }
     );
     $("#skills ul li").hover(function(){
