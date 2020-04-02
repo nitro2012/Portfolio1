@@ -10,7 +10,7 @@ $("#side_bar").show();
 $("#intro").animate({width:"85%",left:"15.5%"});
         }
     );
-    $("#skills ul li").hover(function(){
+    $("#skills ul").hover(function(){
         var i;
         var wid=[300,400,500,500,500];
         for(i=0;i<5;i++)

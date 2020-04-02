@@ -8,6 +8,7 @@ html, body{
     border-width: 1px;
     border-style: solid;
     border-color: black;
+    font-size: x-large;
     position: fixed;
     left:0%;
    top:0%;
@@ -17,7 +18,7 @@ z-index: 1;
 #side_bar ul {
     padding: 5%;
 }
-#side_bar ul li a{
+#side_bar ul li a,#side_bar ul li a:hover{
     margin:5%;
     display:block;
     padding:4%;
@@ -25,7 +26,13 @@ z-index: 1;
     size:5%;
     overflow: visible;
     font-family: sans-serif;
+    font-weight:bold;
+    text-shadow: 1px 1px 1.5px;
     
+}
+#side_bar ul li a:hover{
+    text-shadow: 1px 1px 2px whitesmoke;
+
 }
 #intro{
 
@@ -35,7 +42,7 @@ z-index: 1;
     position:relative;
     left:15.5%;
 overflow:scroll;
-background-color: rgb(240,240,240);
+background-color: white;
 text-shadow: 1px 1px ;
     
 }
@@ -49,11 +56,13 @@ position: relative;
 top:0%;
 left:3%;
 display: inline-block;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 #main_intro span{
-font-size:x-large;
+font-size:xx-large;
 color: black;
+text-decoration: underline;
 
 }
 #main_intro{
@@ -62,13 +71,13 @@ color: black;
     position :relative;
     top:0%;
 font-family: sans-serif;
-color:gray;
+color:rgb(74,74,74,0.7);
 size: 30%;
     margin:2%;
     padding:2%;
     line-height: 2;
     left:10%;
-    font-size: large;
+    font-size: x-large;
     display: inline-block;
 }
 #main_intro span{
@@ -76,6 +85,7 @@ size: 30%;
     position: relative;
     left:50%;
     size:200%;
+    text-shadow:1px 1px;
 }
 #intro span img{
     position: absolute;
@@ -98,11 +108,13 @@ size: 30%;
    
 
 } 
-#skills h1
+#skills h1,#achievements h1
 {
     position: relative;
     left:50%;
     color: black;
+    text-decoration: underline;
+    text-shadow: 1px 1px ;
 }
 #skills{
     height: 50%;
@@ -113,7 +125,8 @@ size: 30%;
 font-family: sans-serif;
 color:gray;
 size: 50%;
-    
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+margin-bottom: 10%;
     padding:10%;
     left:15.5%;
     font-size: large;
@@ -124,6 +137,7 @@ size: 50%;
 .slider{
     background-color:orangered;
     width:10px;
-    height:2px;
-    border:2px solid black
+    height:3px;
+    border:2px solid black;
+    border-end-end-radius: 10%;
 }
