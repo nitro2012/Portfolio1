@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Google</title>
-        <link href="./styles/style.css" type="text/css" rel="stylesheet"
-        <meta charset="utf-8">
+        <title>my_Portfolio</title>
+       <link href='./style.css' type=text/css rel='stylesheet'>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     </head>
     <body>
-        <div class="navigation">
-            <span class="right">Gmail</span>
-            <span class="right">Images</span>
-            <img  src = "./images/gapps.png" alt="error">
-            <span class="blu">Sign In</span>  
-        </div>
-        <div class="logo">
-          <!--  <span class="lblu">G</span>
-            <span class="red">o</span>
-            <span class="yello">o</span>
-            <span class="lblu">g</span>
-            <span class="green">l</span>
-            <span class="red">e</span> -->
-          <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
-        </div>
-        <div class="search-bar">
-            
-            <form  action=# method="GET">
-                <input class="searchbar" type="text">
-                </form>
-                             
-                <!--<span><img class="small" src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png">
-            </span> -->           
-            
-        </div>
-        <div class="buttons">
-            <span class="center">Google Search</span>
-            <span class="center">I'm Feeling Lucky</span>
+            <div id="side_bar">
+                <button>X</button>
+<ul>
+    <li><a href="#main_intro" >Intro</a></li><hr>
+    <li><a href="#skills" >Skills</a></li><hr>
+    <li><a href="#achievements" >Achievements</a></li><hr>
+    <li><a href="#projects" >Projects</a></li><hr>
+    <li><a href="#contact" >Contact Details</a></li>
+</ul>
 
+                </div>
+                
+        <div id="intro">
+           <img id="main_photo" src="./Images/my photo.jpg">
+<span><img src="./Images/line.png"><span class="tool" Open menu></span></span>
+            <p id="main_intro"> <span>ABOUT ME</span><br> <i>Hello ! my name is <i>Varun Bhatnagar</i>. I am presently a Computer Engineering undergraduate at JC Bose University of Science
+            and Technology , Faridabad ,Haryana. My main areas of interest are Machine Learning and Frontend website development. I aspire to build web and
+            mobile apps using ML technology to solve some real world problems.
+            Apart from Computers I am also interested in Bodybuilding and yoga. </i>     
+            </p>
+            <hr>
+            <div id="skills">
+                    <h1>SKILLS</h1>
+                    <ul>
+                        <li><h2> HTML</h2><span class="slider slider1"> </span>30%</li>
+                        <li> <h2>CSS</h2><span class="slider slider2"> </span>40%</li>
+                        <li> <h2>Javascript</h2><span class="slider slider3"></span>50%</li>
+                        <li> <h2>C++</h2><span class="slider slider4"> </span>50%</li>
+                        <li><h2>Python</h2><span class="slider slider5"> </span>50%</li>
+                    </ul>
+        
+                </div>
         </div>
+        
+       
+        
     </body>
+    <script src="script.js " ></script>
 </html>
